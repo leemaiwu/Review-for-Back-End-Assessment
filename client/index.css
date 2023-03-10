@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+
+form > * {
+    display: block;
+}
+
+input {
+    margin: 12px;
+}
+
+h3 {
+    margin-top: 5opx;
+}
