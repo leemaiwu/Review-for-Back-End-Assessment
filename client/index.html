@@ -11,7 +11,7 @@
     <h1>People and their Power</h1>
     <section>
         <h3>Submit Person</h3>
-        <form>
+        <form id="post-form">
             Name:
             <input id="post-name"/>
             Power:
@@ -24,6 +24,7 @@
         <h3>Retrieve all People</h3>
         <button>Retrieve</button>
     </section>
+
     <section>
         <h3>Increase Person's Power (identify by name)</h3>
         <form>
@@ -32,14 +33,16 @@
             <button>Increase</button>
         </form>
     </section>
+
     <section>
         <h3>Delete Person (identify by name)</h3>
-        <form>
+        <form id="delete-form">
             Name:
             <input id="delete-name"/>
             <button>Delete</button>
         </form>
     </section>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
